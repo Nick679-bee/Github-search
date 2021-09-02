@@ -31,7 +31,7 @@ export class SearchService {
       public_repos: any
     }
     
-    let searchEndpoint = "https://api.github.com/users/"+username+"?access_token="+environment.apikey;
+    let searchEndpoint = "https://api.github.com/users/"+username
     let promise = new Promise((resolve,reject)=>{
       
       this.http.get<ApiResponse>(searchEndpoint).toPromise().then(
@@ -49,13 +49,12 @@ export class SearchService {
   }
 
   getRepoInfo(username: string): Observable<any> {
-    return this.http.get("https://api.github.com/users/" + username + '/repos' + "?access_token="+ environment.apikey)
+    return this.http.get("https://api.github.com/users/" + username + '/repos' )
   }
   
 }
 export class ReposServiceService {
   _URL = 'https://api.github.com/users/';
-  token = '?access_token=' + environment.apikey;
     constructor(public http: HttpClient ) { 
   
     }
