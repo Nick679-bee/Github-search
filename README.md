@@ -1,27 +1,26 @@
-# GithubSearch
+# Github search
+#### Website about a Github search project, 1st september 2021
+#### By Nick Mwaura
+## Description
+You need to search for your account or someone elses account and look for the account repositories.This is the place.
+## Setup/Installation Requirements
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
+* You need a good perfoming computer/laptop: Core i3 or equivalent with high resolution display
+* Clone from Github
+* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
+* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Known Bugs
+No known bugs yet
+## Technologies Used
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+## Support and contact details
+Email: Mwauranicholas10@gmail.com
+phone: 0714740995
+### License
+[MIT](license.txt)
